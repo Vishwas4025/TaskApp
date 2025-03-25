@@ -9,7 +9,7 @@ Installation and Setup
 
 Steps to Run the API
     1. Clone the repository:
-        git clone https://github.com/yourusername/your-repo.git
+        git clone https://github.com/Vishwas4025/TaskApp.git
         cd your-repo
     2. Install dependencies (frontend and backend):
         npm install
@@ -67,4 +67,10 @@ Testing the API
     5. Mark task as completed:
         curl -X PATCH http://localhost:4000/task/60c72b2f9af1a8b5d3e6c9a5 -H "Content-Type: application/json" -d '{"completed": true}'
 
-
+UI Screenshots : 
+    The screenshots of UI are uploaded in below google drive
+    TaskApp consists of 2 pages
+    - Home page to add tasks
+    - Tasks page to display all the tasks in the form of cards
+    Images are shown in google drive link mentioned below
+    https://drive.google.com/drive/folders/176xefDmgc2WyTAWs1ZIdrFxzJKamp_xL?usp=sharing
