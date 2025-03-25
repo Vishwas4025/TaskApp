@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  background-color: whitesmoke
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navbar{
+  width: 100%;
+  height: 80px;
+  background-color: #cecaca;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 70px;
+}
+
+.navbar h1, a{
+  text-decoration: none;
+  color: #3c3b3b;
+  font-weight: bolder;
+
+}
+
+.navbar-routes{
+  text-decoration: none;
+  display: flex;
+  gap: 40px;
+  margin-right: 140px;
+}
+
+
+.task-form{
+  width: 400px;
+  margin: auto;
+  margin-top: 70px;
+}
+label, input {
+  display: block;
+}
+form input {
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  border: 1px solid #9e9e9e;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+form textarea{
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 200px;
+  border: 1px solid #9e9e9e;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+form button {
+  background: rgb(25, 24, 24);
+  border: 0;
+  color: #fff;
+  padding: 10px;
+  font-family: "Poppins";
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+.tasks-list{
+  width: 700px;
+  margin: auto;
+}
+.tasks-list h1{
+  margin: auto;
+  font-weight: bolder;
+}
+
+.task-card {
+  background: #fff;
+  border-radius: 5px;
+  padding: 15px;
+  margin: auto;
+  margin-bottom: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.05);
+  position: relative;
+  max-width: 700px;
+  
+}
+
+.task-card h4 {
+  margin: 0 0 10px 0;
+  font-size: 1.2em;
+  color: var(--primary);
+}
+
+.task-card p {
+  margin: 0;
+  font-size: 0.9em;
+  color: #555;
+}
+
+.task-card button{
+  background: rgb(55, 54, 54);
+  border: 0;
+  color: #fff;
+  padding: 10px;
+  font-family: "Poppins";
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.top-right-buttons {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.checkbox-container {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.checkbox-container input {
+  cursor: pointer;
+}
+
+.checkbox-container label {
+  font-size: 0.9em;
+  color: #333;
+}
